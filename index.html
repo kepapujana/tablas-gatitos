@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tablas</title>
+    <style>
+        table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+          font-family: sans-serif;
+        }
+        
+        table{
+            width: 60%;
+        }
+        
+        th, td{
+            padding: 10px 5px;
+            text-align: left;
+        }
+
+        #fondonegro{
+            background-color: rgb(235, 235, 235);
+        }
+
+        header{
+            text-align: center;
+            margin: 20px;
+        }
+
+        a{
+            margin: 20px;
+            font-family: sans-serif;
+            color: rgb(0, 183, 245);
+        }
+
+        nav{
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="gatitos.html">GATITOS</a>
+            <a href="index.html">TABLAS</a>
+        </nav>
+
+        <nav>
+            <a href="https://pixabay.com/users/geoffharvey-9096471/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=150622" target="_blank">audio</a>        
+            <a href="https://images.pexels.com/photos/19560858/pexels-photo-19560858/free-photo-of-ciudad-punto-de-referencia-viaje-viajar.jpeg?auto=compress&cs=tinysrgb&w=800" alt="lisboa" target="_blank">lisboafoto</a>
+            <a href="https://www.pexels.com/es-es/foto/ciudad-punto-de-referencia-calle-viaje-19560855/" alt="lisboa2" target="_blank">lisboafoto2</a>
+            <a href="https://images.pexels.com/photos/5193270/pexels-photo-5193270.jpeg?auto=compress&cs=tinysrgb&w=800" alt="lisboa3" target="_blank">lisboafoto3</a>
+            <a href="https://pixabay.com/videos/elevator-lift-187403/" target="_blank">video</a>
+        </nav>
+    </header>
+
+    <table>
+        <tr id="fondonegro">
+            <th colspan="3">Invoice #123456789</th>
+            <th>14 January 2025</th>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <b>Pay to:</b><br>
+                Acme Billing Co.<br>
+                123 Main St.<br>
+                Cityville, NA 12345
+            </td>
+            <td colspan="2">
+                <b>Customer:</b><br>
+                John Smith<br>
+                321 Willow Way<br>
+                Southeast Northwestershire, MA 54321            
+            </td>
+        </tr>
+        <tr id="fondonegro">
+            <td>Name / Description</td>
+            <td>Qty.</td>
+            <td>&#64</td>
+            <td>Cost</td>
+        </tr>
+        <tr>
+            <td>Paperclips</td>
+            <td>1000</td>
+            <td>0.01</td>
+            <td>10.00</td>
+        </tr>
+        <tr>
+            <td>Staples (box)</td>
+            <td>100</td>
+            <td>1.00</td>
+            <td>100.00</td>
+        </tr>
+        <tr>
+            <td id="fondonegro" colspan="3">Subtotal</td>
+            <td>110.00</td>
+        </tr>
+        <tr>
+            <td id="fondonegro" colspan="2">Tax</td>
+            <td>8&#37</td>
+            <td>8.80</td>
+        </tr>
+        <tr>
+            <td id="fondonegro">Grand Total</td>
+            <td colspan="3">&#36 118.80</td>
+        </tr>
+    </table>
+</body>
+</html>
